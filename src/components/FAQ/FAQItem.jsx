@@ -9,8 +9,8 @@ const FAQItem = ({ faq }) => {
     <div
       className={`rounded-3xl border transition-all duration-500 ${
         isOpen
-          ? "bg-gradient-to-br from-pink-50 via-white to-rose-50 border-pink-200 shadow-lg shadow-pink-100/50"
-          : "bg-white border-gray-100 shadow-md hover:shadow-pink-100/40"
+          ? "bg-gradient-to-br from-[#FFF5F9] via-white to-rose-50 border-[#FFD9E6] shadow-lg shadow-[#FFE9F2]/50"
+          : "bg-white border-gray-100 shadow-md hover:shadow-[#FFE9F2]/40"
       }`}
     >
       {/* Header Button */}
@@ -32,8 +32,8 @@ const FAQItem = ({ faq }) => {
         <div
           className={`flex items-center justify-center w-8 h-8 rounded-full border transition-all duration-300 ${
             isOpen
-              ? "bg-gradient-to-r from-pink-500 to-rose-500 text-white rotate-180"
-              : "border-pink-200 text-pink-600 bg-pink-50 hover:bg-pink-100"
+              ? "bg-gradient-to-r from-[#FFF5F9]0 to-rose-500 text-white rotate-180"
+              : "border-[#FFD9E6] text-pink-600 bg-[#FFF5F9] hover:bg-[#FFE9F2]"
           }`}
         >
           <FontAwesomeIcon

@@ -20,7 +20,7 @@ const LipstickCard = ({ lipstick }) => {
             </h3>
             <p className="text-sm text-gray-600">{lipstick.colorName}</p>
           </div>
-          <span className="text-xs bg-pink-100 text-[E87BA8] px-2 py-1 rounded-full">
+          <span className="text-xs bg-[#FFE9F2] text-[E87BA8] px-2 py-1 rounded-full">
             {lipstick.finish}
           </span>
         </div>

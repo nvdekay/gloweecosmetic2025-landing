@@ -9,7 +9,7 @@ export default function TestimonialCard({ testimonial }) {
         <img
           src={testimonial.avatar}
           alt={`${testimonial.name} profile photo`}
-          className="w-16 h-16 rounded-full object-cover border-2 border-pink-200"
+          className="w-16 h-16 rounded-full object-cover border-2 border-[#FFD9E6]"
         />
         <div>
           <h3 className="font-semibold text-gray-900">{testimonial.name}</h3>

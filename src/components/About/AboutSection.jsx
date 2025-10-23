@@ -4,18 +4,18 @@ const AboutSection = () => {
   return (
     <section
       id="about"
-      className="py-16 sm:py-20 md:py-24 lg:py-28 bg-gradient-to-b from-pink-50 via-white to-rose-50 relative overflow-hidden"
+      className="py-16 sm:py-20 md:py-24 lg:py-28 bg-gradient-to-b from-[#FFF5F9] via-white to-rose-50 relative overflow-hidden"
     >
       {/* Decorative background shapes */}
-      <div className="absolute top-0 left-0 w-40 sm:w-56 md:w-72 h-40 sm:h-56 md:h-72 bg-pink-200 rounded-full blur-3xl opacity-30 -translate-x-10 sm:-translate-x-16 md:-translate-x-20 -translate-y-10 sm:-translate-y-16 md:-translate-y-20"></div>
+      <div className="absolute top-0 left-0 w-40 sm:w-56 md:w-72 h-40 sm:h-56 md:h-72 bg-[#FFD9E6] rounded-full blur-3xl opacity-30 -translate-x-10 sm:-translate-x-16 md:-translate-x-20 -translate-y-10 sm:-translate-y-16 md:-translate-y-20"></div>
       <div className="absolute bottom-0 right-0 w-48 sm:w-64 md:w-80 h-48 sm:h-64 md:h-80 bg-rose-300 rounded-full blur-3xl opacity-25 translate-x-10 sm:translate-x-14 md:translate-x-20 translate-y-6 sm:translate-y-8 md:translate-y-10"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-2 gap-10 md:gap-12 items-center">
           {/* Left Text Section */}
           <div className="text-center md:text-left">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold bg-gradient-to-r from-pink-500 via-rose-500 to-pink-700 bg-clip-text text-transparent mb-5 sm:mb-6 leading-tight">
-              Welcome to <span className="text-shadow-pink-400">Glowee!</span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold bg-gradient-to-r to-[#FFF5F9] via-rose-300 from-pink-600 bg-clip-text text-transparent mb-5 sm:mb-6 leading-tight">
+              Welcome to <span className="text-shadow-[#FFA8CD]">Glowee!</span>
             </h2>
             <p className="text-gray-700 text-base sm:text-lg md:text-xl mb-4 sm:mb-5 leading-relaxed">
               Glowee brings you high-quality, affordable cosmetics that
@@ -41,7 +41,7 @@ const AboutSection = () => {
               </a>
               <a
                 href="#contact"
-                className="border-2 border-pink-400 text-pink-600 font-semibold px-6 sm:px-8 py-3 rounded-full hover:bg-pink-50 hover:text-pink-700 transition-all duration-300 text-sm sm:text-base"
+                className="border-2 border-[#FFA8CD] text-pink-600 font-semibold px-6 sm:px-8 py-3 rounded-full hover:bg-[#FFF5F9] hover:text-pink-700 transition-all duration-300 text-sm sm:text-base"
               >
                 Contact Us
               </a>
@@ -59,12 +59,12 @@ const AboutSection = () => {
             </div>
 
             {/* Floating tags */}
-            <div className="absolute -bottom-4 sm:-bottom-6 -left-3 sm:-left-6 bg-white shadow-xl rounded-2xl px-4 sm:px-6 py-2 sm:py-4 border border-pink-100">
+            <div className="absolute -bottom-4 sm:-bottom-6 -left-3 sm:-left-6 bg-white shadow-xl rounded-2xl px-4 sm:px-6 py-2 sm:py-4 border border-[#FFE9F2]">
               <p className="text-pink-600 font-semibold text-sm sm:text-base md:text-lg flex items-center gap-2">
                 💖 100% Cruelty-Free
               </p>
             </div>
-            <div className="absolute top-2 sm:top-4 right-2 sm:right-4 bg-gradient-to-r from-pink-400 to-rose-400 text-white px-3 sm:px-4 py-1 sm:py-2 rounded-full text-xs sm:text-sm font-semibold shadow-md">
+            <div className="absolute top-2 sm:top-4 right-2 sm:right-4 bg-gradient-to-r from-[#FFA8CD] to-rose-400 text-white px-3 sm:px-4 py-1 sm:py-2 rounded-full text-xs sm:text-sm font-semibold shadow-md">
               Trusted by 10K+ Users
             </div>
           </div>

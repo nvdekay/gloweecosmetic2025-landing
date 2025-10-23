@@ -24,7 +24,7 @@ const FindMoreSection = () => {
         <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {/* Shopee */}
           <div className="bg-white rounded-2xl p-8 text-center shadow-lg">
-            <div className="w-20 h-20 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-20 h-20 bg-[#FFE9F2] rounded-full flex items-center justify-center mx-auto mb-4">
               <FontAwesomeIcon
                 icon={faShoppingBag}
                 className="text-pink-600 text-3xl"
@@ -48,7 +48,7 @@ const FindMoreSection = () => {
 
           {/* Facebook */}
           <div className="bg-white rounded-2xl p-8 text-center shadow-lg">
-            <div className="w-20 h-20 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-20 h-20 bg-[#FFE9F2] rounded-full flex items-center justify-center mx-auto mb-4">
               <FontAwesomeIcon
                 icon={faFacebookF}
                 className="text-pink-600 text-3xl"
@@ -72,7 +72,7 @@ const FindMoreSection = () => {
 
           {/* Instagram */}
           <div className="bg-white rounded-2xl p-8 text-center shadow-lg">
-            <div className="w-20 h-20 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-20 h-20 bg-[#FFE9F2] rounded-full flex items-center justify-center mx-auto mb-4">
               <FontAwesomeIcon
                 icon={faInstagram}
                 className="text-pink-600 text-3xl"

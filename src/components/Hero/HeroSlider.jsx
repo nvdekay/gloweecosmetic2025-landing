@@ -31,7 +31,7 @@ const HeroSlider = () => {
   return (
     <section
       id="home"
-      className="relative w-full h-[92vh] overflow-hidden bg-linear-0 from-pink-200 via-pink-100 to-white"
+      className="relative w-full h-[92vh] overflow-hidden bg-linear-0 from-[#FFD9E6] via-[#FFE9F2] to-white"
     >
       {/* Slides */}
       <div
@@ -47,7 +47,7 @@ const HeroSlider = () => {
             {index === current && (
               <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white bg-black/40 backdrop-blur-sm px-6">
                 {/* Title */}
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-4 bg-pink-300 via-rose-400 to-pink-600 bg-clip-text text-transparent drop-shadow-lg">
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-4 bg-[#FFC3DC] via-rose-400 to-pink-600 bg-clip-text text-transparent drop-shadow-lg">
                   Glowee
                 </h1>
 
@@ -64,19 +64,19 @@ const HeroSlider = () => {
                     className="group relative inline-flex items-center justify-center overflow-hidden rounded-full px-8 py-4 font-semibold text-lg bg-gradient-to-r from-pink-600 to-rose-500 text-white hover:scale-105 transition-all duration-300 shadow-lg"
                   >
                     <span className="relative z-10">Shop Now</span>
-                    <span className="absolute inset-0 bg-gradient-to-r from-rose-400 via-pink-500 to-rose-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-lg"></span>
+                    <span className="absolute inset-0 bg-gradient-to-r from-rose-400 via-[#FFF5F9]0 to-rose-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-lg"></span>
                   </a>
 
                   <a
                     href="#about"
-                    className="relative inline-flex items-center justify-center overflow-hidden rounded-full px-8 py-4 font-semibold text-lg border-2 border-pink-400 text-white hover:text-pink-100 hover:bg-pink-500/20 transition-all duration-300"
+                    className="relative inline-flex items-center justify-center overflow-hidden rounded-full px-8 py-4 font-semibold text-lg border-2 border-[#FFA8CD] text-white hover:text-[#FFE9F2] hover:bg-[#FFF5F9]0/20 transition-all duration-300"
                   >
                     Learn More
                   </a>
                 </div>
 
                 {/* Decorative shimmer line */}
-                <div className="mt-10 w-24 h-[2px] bg-gradient-to-r from-transparent via-pink-400 to-transparent animate-pulse"></div>
+                <div className="mt-10 w-24 h-[2px] bg-gradient-to-r from-transparent via-[#FFA8CD] to-transparent animate-pulse"></div>
               </div>
             )}
           </div>

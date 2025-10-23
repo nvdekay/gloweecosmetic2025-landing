@@ -4,7 +4,7 @@ import { eyeliners } from "../../data/products";
 
 const PencilSection = () => {
   return (
-    <section id="eyeliner" className="py-12 md:py-16 bg-pink-50">
+    <section id="eyeliner" className="py-12 md:py-16 bg-[#FFF5F9]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-pink-700 mb-3">
