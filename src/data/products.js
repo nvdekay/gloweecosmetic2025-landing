@@ -80,22 +80,6 @@ export const eyeliners = [
     price: 90000,
     img: "/images/pencil-1.jpg",
   },
-  {
-    id: 5,
-    name: "Forest Green",
-    colorName: "Emerald",
-    swatch: "#1b5e20",
-    price: 90000,
-    img: "/images/pencil-1.jpg",
-  },
-  {
-    id: 6,
-    name: "Bronze Shimmer",
-    colorName: "Golden Bronze",
-    swatch: "#8d6e63",
-    price: 95000,
-    img: "/images/pencil-1.jpg",
-  },
 ];
 
 // 💋 Danh sách son môi

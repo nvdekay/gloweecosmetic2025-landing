@@ -8,14 +8,14 @@ const FindMoreSection = () => {
   return (
     <section
       id="contact"
-      className="py-16 md:py-20 bg-gradient-to-br from-pink-500 to-pink-600"
+      className="py-16 md:py-20"
     >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center text-white mb-12">
+        <div className="text-center text-blue-950 mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Shop & Connect With Us
           </h2>
-          <p className="text-lg text-pink-50 max-w-2xl mx-auto">
+          <p className="text-lg text-cyan-900 max-w-2xl mx-auto">
             Find us on your favorite platforms! Shop our full collection, see
             the latest looks, and join our beauty community.
           </p>
@@ -24,7 +24,7 @@ const FindMoreSection = () => {
         <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {/* Shopee */}
           <div className="bg-white rounded-2xl p-8 text-center shadow-lg">
-            <div className="w-20 h-20 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-20 h-20 bg-[#FFE9F2] rounded-full flex items-center justify-center mx-auto mb-4">
               <FontAwesomeIcon
                 icon={faShoppingBag}
                 className="text-pink-600 text-3xl"
@@ -37,7 +37,7 @@ const FindMoreSection = () => {
               Browse our complete collection and enjoy exclusive deals!
             </p>
             <ButtonLink
-              href="https://shopee.vn/"
+              href="https://shopee.vn/gloweecosmetic"
               variant="social"
               ariaLabel="Visit our Shopee store"
               className="w-full"
@@ -48,7 +48,7 @@ const FindMoreSection = () => {
 
           {/* Facebook */}
           <div className="bg-white rounded-2xl p-8 text-center shadow-lg">
-            <div className="w-20 h-20 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-20 h-20 bg-[#FFE9F2] rounded-full flex items-center justify-center mx-auto mb-4">
               <FontAwesomeIcon
                 icon={faFacebookF}
                 className="text-pink-600 text-3xl"
@@ -72,7 +72,7 @@ const FindMoreSection = () => {
 
           {/* Instagram */}
           <div className="bg-white rounded-2xl p-8 text-center shadow-lg">
-            <div className="w-20 h-20 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-20 h-20 bg-[#FFE9F2] rounded-full flex items-center justify-center mx-auto mb-4">
               <FontAwesomeIcon
                 icon={faInstagram}
                 className="text-pink-600 text-3xl"
