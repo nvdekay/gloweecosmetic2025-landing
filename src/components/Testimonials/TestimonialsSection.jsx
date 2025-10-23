@@ -2,7 +2,7 @@ import React from "react";
 import TestimonialCard from "./TestimonialCard";
 import { testimonials } from "../../data/products";
 
-export default TestimonialsSection = () => {
+export default function TestimonialsSection() {
   return (
     <section id="testimonials" className="py-12 md:py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,5 +24,4 @@ export default TestimonialsSection = () => {
       </div>
     </section>
   );
-};
-
+}

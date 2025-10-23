@@ -1,3 +1,6 @@
+// src/data/products.js
+
+// 💄 Danh sách bảng màu mắt
 export const eyeshadows = [
   {
     id: 1,
@@ -43,6 +46,7 @@ export const eyeshadows = [
   },
 ];
 
+// ✏️ Danh sách bút kẻ mắt
 export const eyeliners = [
   {
     id: 1,
@@ -94,6 +98,7 @@ export const eyeliners = [
   },
 ];
 
+// 💋 Danh sách son môi
 export const lipsticks = [
   {
     id: 1,
@@ -169,6 +174,7 @@ export const lipsticks = [
   },
 ];
 
+// 💬 Đánh giá khách hàng
 export const testimonials = [
   {
     id: 1,
@@ -214,6 +220,7 @@ export const testimonials = [
   },
 ];
 
+// ❓ Câu hỏi thường gặp
 export const faqs = [
   {
     id: 1,
@@ -253,6 +260,8 @@ export const faqs = [
   },
 ];
 
+// Hàm format giá – pure, ổn định, không side effect
 export const formatPrice = (price) => {
+  if (typeof price !== "number") return "";
   return price.toLocaleString("vi-VN") + "₫";
 };

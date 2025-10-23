@@ -8,7 +8,6 @@ const PencilCard = ({ pencil }) => {
       <div className="aspect-[1/1] overflow-hidden bg-gray-50">
         <img
           src={pencil.img || "/placeholder.png"}
-          onError={(e) => (e.target.src = "/placeholder.png")}
           alt={`${pencil.name} - ${pencil.colorName} eyeliner pencil`}
           className="w-full h-full object-cover"
         />

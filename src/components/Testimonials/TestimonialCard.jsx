@@ -1,8 +1,8 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+import React from 'react';
 
-export default TestimonialCard = ({ testimonial }) => {
+export default function TestimonialCard({ testimonial }) {
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6">
       <div className="flex items-center gap-4 mb-4">
@@ -31,5 +31,4 @@ export default TestimonialCard = ({ testimonial }) => {
       <p className="text-gray-600 leading-relaxed">"{testimonial.text}"</p>
     </div>
   );
-};
-
+}
