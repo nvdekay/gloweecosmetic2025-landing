@@ -6,7 +6,7 @@ import ButtonLink from "../ButtonLink";
 
 const FindMoreSection = () => {
   return (
-    <section id="contact" className="py-16 md:py-20">
+    <section id="contact" className="py-16 md:py-20 bg-[#FFF5F9]">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl pb-2 md:text-5xl font-extrabold mb-4 bg-gradient-to-r from-pink-600 via-rose-400 to-mint-400 bg-clip-text text-transparent drop-shadow-sm tracking-tight">

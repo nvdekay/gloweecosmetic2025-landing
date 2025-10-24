@@ -7,6 +7,7 @@ import TestimonialsSection from "./components/Testimonials/TestimonialsSection";
 import FAQSection from "./components/FAQ/FAQSection";
 import FindMoreSection from "./components/FindMore/FindMoreSection";
 import HeroSlider from "./components/Hero/HeroSlider";
+import Countdown from "./components/Countdown/Countdown";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <EyeshadowSection />
         <TestimonialsSection />
         <FAQSection />
+        <Countdown />
         <FindMoreSection />
       </main>
 
