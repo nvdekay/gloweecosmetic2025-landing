@@ -74,11 +74,12 @@ const Footer = () => {
 
         {/* Mạng xã hội */}
         <div className="text-center md:text-left">
-          <p className="text-xs text-gray-500 mt-4 italic">
+          <p className="text-sm text-gray-500 mt-4 italic">
             “Glowee: Cả hội cùng xinh - Chị đẹp em slay.”
           </p>
-          <p className="text-gray-500 text-xs mt-2 ml-10">
-            &copy; {currentYear} Glowee. All rights reserved.
+
+          <p className="text-sm text-gray-400 mt-6">
+            &copy; {currentYear} Glowee Cosmetics. All rights reserved.
           </p>
         </div>
       </div>
