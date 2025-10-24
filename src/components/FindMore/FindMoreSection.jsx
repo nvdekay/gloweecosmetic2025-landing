@@ -6,18 +6,17 @@ import ButtonLink from "../ButtonLink";
 
 const FindMoreSection = () => {
   return (
-    <section
-      id="contact"
-      className="py-16 md:py-20"
-    >
+    <section id="contact" className="py-16 md:py-20">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center text-blue-950 mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-extrabold mb-4 bg-gradient-to-r from-pink-600 via-rose-400 to-mint-400 bg-clip-text text-transparent drop-shadow-sm tracking-tight">
             Shop & Connect With Us
           </h2>
-          <p className="text-lg text-cyan-900 max-w-2xl mx-auto">
-            Find us on your favorite platforms! Shop our full collection, see
-            the latest looks, and join our beauty community.
+          <p className="text-lg text-gray-700 italic max-w-2xl mx-auto leading-relaxed">
+            “Stay connected with{" "}
+            <span className="font-semibold text-pink-600">Glowee</span> —
+            discover our products, get inspired, and join our beauty-loving
+            community!”
           </p>
         </div>
 
@@ -30,17 +29,17 @@ const FindMoreSection = () => {
                 className="text-pink-600 text-3xl"
               />
             </div>
-            <h3 className="font-bold text-xl text-gray-900 mb-2">
-              Shop on Shopee
+            <h3 className="font-bold text-xl text-gray-900 mb-2 tracking-wide">
+              Shop on <span className="text-pink-600">Shopee</span>
             </h3>
-            <p className="text-gray-600 mb-4 text-sm">
-              Browse our complete collection and enjoy exclusive deals!
+            <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+              Discover our full range of products and enjoy exclusive offers!
             </p>
             <ButtonLink
               href="https://shopee.vn/gloweecosmetic"
               variant="social"
               ariaLabel="Visit our Shopee store"
-              className="w-full"
+              className="bg-pink-600 hover:bg-pink-500 text-white w-full"
             >
               Visit Store
             </ButtonLink>
@@ -51,20 +50,20 @@ const FindMoreSection = () => {
             <div className="w-20 h-20 bg-[#FFE9F2] rounded-full flex items-center justify-center mx-auto mb-4">
               <FontAwesomeIcon
                 icon={faFacebookF}
-                className="text-pink-600 text-3xl"
+                className="text-blue-600 text-3xl"
               />
             </div>
-            <h3 className="font-bold text-xl text-gray-900 mb-2">
-              Follow on Facebook
+            <h3 className="font-bold text-xl text-gray-900 mb-2 tracking-wide">
+              Follow on <span className="text-blue-600">Facebook</span>
             </h3>
-            <p className="text-gray-600 mb-4 text-sm">
-              Get beauty tips, tutorials, and new product updates!
+            <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+              Stay updated with our latest news, beauty tips, and tutorials.
             </p>
             <ButtonLink
-              href="https://facebook.com/"
+              href="https://www.facebook.com/GloweeCosmetic"
               variant="social"
               ariaLabel="Follow us on Facebook"
-              className="w-full"
+              className="bg-blue-600 hover:bg-blue-700 text-white w-full hover:bg-blue-500"
             >
               Follow Us
             </ButtonLink>
@@ -75,20 +74,24 @@ const FindMoreSection = () => {
             <div className="w-20 h-20 bg-[#FFE9F2] rounded-full flex items-center justify-center mx-auto mb-4">
               <FontAwesomeIcon
                 icon={faInstagram}
-                className="text-pink-600 text-3xl"
+                className="text-rose-500 text-3xl"
               />
             </div>
-            <h3 className="font-bold text-xl text-gray-900 mb-2">
-              Join us on Instagram
+            <h3 className="font-bold text-xl text-gray-900 mb-2 tracking-wide">
+              Join us on <span className="text-rose-500">Instagram</span>
             </h3>
-            <p className="text-gray-600 mb-4 text-sm">
-              See stunning looks and share your Glowee moments!
+            <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+              Explore our looks, share your style, and tag your{" "}
+              <span className="font-semibold text-pink-600">
+                #GloweeMoments
+              </span>
+              .
             </p>
             <ButtonLink
-              href="https://instagram.com/"
+              href="https://www.instagram.com/gloweecosmetic/"
               variant="social"
               ariaLabel="Follow us on Instagram"
-              className="w-full"
+              className="bg-rose-500 hover:bg-rose-600 text-white w-full"
             >
               Follow Us
             </ButtonLink>

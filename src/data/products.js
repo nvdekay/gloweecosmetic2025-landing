@@ -114,7 +114,7 @@ export const eyeliners = [
   },
 ];
 
-// 💋 Danh sách son môi
+// Danh sách son môi
 export const lipsticks = [
   {
     id: 1,
@@ -122,7 +122,7 @@ export const lipsticks = [
     colorName: "Soft Rose",
     swatch: "#f1a3c2",
     price: 120000,
-    img: "/images/lip-1.jpg",
+    img: "/imgs/lipstick/ls-1.jpg",
     finish: "Matte",
   },
   {
@@ -131,7 +131,7 @@ export const lipsticks = [
     colorName: "Coral Bloom",
     swatch: "#ff8a80",
     price: 120000,
-    img: "/images/lip-1.jpg",
+    img: "/imgs/lipstick/ls-2.jpg",
     finish: "Satin",
   },
   {
@@ -140,7 +140,7 @@ export const lipsticks = [
     colorName: "Deep Berry",
     swatch: "#880e4f",
     price: 125000,
-    img: "/images/lip-1.jpg",
+    img: "/imgs/lipstick/ls-3.jpg",
     finish: "Matte",
   },
   {
@@ -149,7 +149,7 @@ export const lipsticks = [
     colorName: "Natural Nude",
     swatch: "#d4a5a5",
     price: 115000,
-    img: "/images/lip-1.jpg",
+    img: "/imgs/lipstick/ls-4.jpg",
     finish: "Cream",
   },
   {
@@ -158,7 +158,7 @@ export const lipsticks = [
     colorName: "Classic Red",
     swatch: "#c62828",
     price: 125000,
-    img: "/images/lip-1.jpg",
+    img: "/imgs/lipstick/ls-5.jpg",
     finish: "Satin",
   },
   {
@@ -167,7 +167,7 @@ export const lipsticks = [
     colorName: "Peach Sorbet",
     swatch: "#ffb74d",
     price: 120000,
-    img: "/images/lip-1.jpg",
+    img: "/imgs/lipstick/ls-6.jpg",
     finish: "Glossy",
   },
   {
@@ -176,7 +176,7 @@ export const lipsticks = [
     colorName: "Dusty Mauve",
     swatch: "#b39ddb",
     price: 120000,
-    img: "/images/lip-1.jpg",
+    img: "/imgs/lipstick/ls-7.jpg",
     finish: "Matte",
   },
   {
@@ -185,58 +185,58 @@ export const lipsticks = [
     colorName: "Hot Pink",
     swatch: "#ec407a",
     price: 120000,
-    img: "/images/lip-1.jpg",
+    img: "/imgs/lipstick/ls-8.jpg",
     finish: "Glossy",
   },
 ];
 
-// 💬 Đánh giá khách hàng
+// Đánh giá khách hàng
 export const testimonials = [
   {
     id: 1,
     name: "Linh Nguyễn",
-    avatar: "/images/customer-1.jpg",
+    avatar: "https://i.pravatar.cc/150?img=11",
     text: "Glowee's eyeshadow palettes are absolutely stunning! The colors blend beautifully and last all day. I've received so many compliments!",
     rating: 5,
   },
   {
     id: 2,
     name: "Mai Trần",
-    avatar: "/images/customer-1.jpg",
+    avatar: "https://i.pravatar.cc/150?img=22",
     text: "The lipsticks are so smooth and the color payoff is amazing. I love that they don't dry out my lips. Will definitely buy more!",
     rating: 5,
   },
   {
     id: 3,
     name: "Hương Phạm",
-    avatar: "/images/customer-1.jpg",
+    avatar: "https://i.pravatar.cc/150?img=36",
     text: "Best eyeliner pencils I've ever used! They glide on smoothly and stay put without smudging. Highly recommend!",
     rating: 5,
   },
   {
     id: 4,
     name: "Anh Lê",
-    avatar: "/images/customer-1.jpg",
+    avatar: "https://i.pravatar.cc/150?img=47",
     text: "I'm obsessed with the Rosy Dream palette! The quality is incredible for the price. Glowee has become my go-to brand.",
     rating: 5,
   },
   {
     id: 5,
     name: "Thu Võ",
-    avatar: "/images/customer-1.jpg",
+    avatar: "https://i.pravatar.cc/150?img=52",
     text: "Fast shipping and beautiful packaging! The products exceeded my expectations. Love supporting Glowee!",
     rating: 5,
   },
   {
     id: 6,
     name: "Trang Đỗ",
-    avatar: "/images/customer-1.jpg",
+    avatar: "https://i.pravatar.cc/150?img=65",
     text: "Perfect for sensitive skin! No irritation and the colors are so pigmented. Thank you Glowee for such amazing products!",
     rating: 5,
   },
 ];
 
-// ❓ Câu hỏi thường gặp
+// Câu hỏi thường gặp
 export const faqs = [
   {
     id: 1,

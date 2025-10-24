@@ -1,6 +1,13 @@
 import React from "react";
 
 const AboutSection = () => {
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section
       id="about"
@@ -33,18 +40,18 @@ const AboutSection = () => {
             </p>
 
             <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row justify-center md:justify-start gap-3 sm:gap-4">
-              <a
-                href="#eyeshadow"
-                className="bg-gradient-to-r from-pink-600 to-rose-500 text-white font-semibold px-6 sm:px-8 py-3 rounded-full shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-300 text-sm sm:text-base"
+              <button
+                onClick={() => handleScroll("eyeshadow")}
+                className="bg-gradient-to-r cursor-pointer from-pink-600 to-rose-500 text-white font-semibold px-6 sm:px-8 py-3 rounded-full shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-300 text-sm sm:text-base"
               >
                 Explore Products
-              </a>
-              <a
-                href="#contact"
-                className="border-2 border-[#FFA8CD] text-pink-600 font-semibold px-6 sm:px-8 py-3 rounded-full hover:bg-[#FFF5F9] hover:text-pink-700 transition-all duration-300 text-sm sm:text-base"
+              </button>
+              <button
+                onClick={() => handleScroll("contact")}
+                className="border-2 cursor-pointer border-[#FFA8CD] text-pink-600 font-semibold px-6 sm:px-8 py-3 rounded-full hover:bg-[#FFF5F9] hover:text-pink-700 transition-all duration-300 text-sm sm:text-base"
               >
                 Contact Us
-              </a>
+              </button>
             </div>
           </div>
 
