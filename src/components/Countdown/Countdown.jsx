@@ -214,7 +214,7 @@ const Countdown = () => {
             <button
               type="submit"
               disabled={isSubmitting}
-              className={`w-full py-4 rounded-lg font-semibold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500 ${
+              className={`w-full py-4 cursor-pointer rounded-lg font-semibold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500 ${
                 isSubmitting
                   ? "bg-gray-400 cursor-not-allowed"
                   : "bg-pink-600 hover:bg-pink-700 text-white"

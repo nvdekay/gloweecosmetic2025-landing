@@ -9,7 +9,6 @@ const HeroSlider = () => {
   const images = [
     "/imgs/hero/hero-1.png",
     "/imgs/hero/hero-2.png",
-    "/imgs/hero/hero-3.jpg",
     "/imgs/hero/hero-4.png",
   ];
 
