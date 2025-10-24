@@ -2,111 +2,68 @@
 export const products = [
   {
     id: 1,
-    name: "Bảng phấn mắt đa năng Lemonade Aesthetic Multi-task Palette",
-    thumbnail: "/imgs/products/p-1.png",
-    swatches: ["#f2d6d7", "#d8a7a7", "#a67873", "#6e4b4f"],
-    price: 275000,
+    name: "Chì Kẻ Mày 2 Đầu Dual Eyebrow - Tự Nhiên, Lâu Trôi, Dễ Kẻ Định Hình",
+    thumbnail: "/imgs/products/p-1.webp",
+    price: 160000,
+    url: "https://shopee.vn/Ch%C3%AC-K%E1%BA%BB-M%C3%A0y-2-%C4%90%E1%BA%A7u-Dual-Eyebrow-T%E1%BB%B1-Nhi%C3%AAn-L%C3%A2u-Tr%C3%B4i-D%E1%BB%85-K%E1%BA%BB-%C4%90%E1%BB%8Bnh-H%C3%ACnh-i.1515879255.42575490625?extraParams=%7B%22display_model_id%22%3A267066578902%7D",
   },
   {
     id: 2,
-    name: "Bảng phấn mắt đa năng Lemonade Aesthetic Multi-task Palette",
-    thumbnail: "/imgs/products/p-2.png",
-    swatches: ["#f3dce2", "#d9a8b3", "#a47c89", "#5f4752"],
-    price: 275000,
+    name: "Phấn Mắt Đa Năng Aesthetic Palette 10.8g – Trang Điểm Mắt, Má, Highlight Chuẩn Tông Tây",
+    thumbnail: "/imgs/products/p-2.webp",
+    price: 265000,
+    url: "https://shopee.vn/Ph%E1%BA%A5n-M%E1%BA%AFt-%C4%90a-N%C4%83ng-Aesthetic-Palette-10.8g-%E2%80%93-Trang-%C4%90i%E1%BB%83m-M%E1%BA%AFt-M%C3%A1-Highlight-Chu%E1%BA%A9n-T%C3%B4ng-T%C3%A2y-i.1515879255.28092882088?extraParams=%7B%22display_model_id%22%3A254019774395%7D",
   },
   {
     id: 3,
-    name: "Bảng phấn mắt đa năng Lemonade Aesthetic Multi-task Palette",
-    thumbnail: "/imgs/products/p-3.png",
-    swatches: ["#fde2cf", "#f9b997", "#e28863", "#8b4f3d"],
-    price: 275000,
-  },
-  {
-    id: 4,
-    name: "Son Kem Lì Thuần Chay Perfect Couple Lip",
-    thumbnail: "/imgs/products/p-4.png",
-    swatches: ["#ffd6cc", "#ff9e80", "#ff6f61", "#b33c2e"],
-    price: 169000,
-  },
-  {
-    id: 5,
-    name: "Son Kem Lì Thuần Chay Perfect Couple Lip",
-    thumbnail: "/imgs/products/p-5.png",
-    swatches: ["#f1d9d9", "#d8a5a5", "#b37c7c", "#6e4e4e"],
-    price: 169000,
-  },
-  {
-    id: 6,
-    name: "Son Kem Lì Thuần Chay Perfect Couple Lip",
-    thumbnail: "/imgs/products/p-6.png",
-    swatches: ["#f8d4d8", "#eb9aa4", "#cf6679", "#8a3c4a"],
-    price: 169000,
-  },
-  {
-    id: 7,
-    name: "Chì Kẻ Mày 2 Đầu Dual Eyebrow",
-    thumbnail: "/imgs/products/p-7.jpg",
-    swatches: ["#d8c4b2", "#a67c52", "#704214", "#3b2410"],
-    price: 160000,
-  },
-  {
-    id: 8,
-    name: "Chì Kẻ Mày 2 Đầu Dual Eyebrow",
-    thumbnail: "/imgs/products/p-8.jpg",
-    swatches: ["#d7ccc0", "#b8a89f", "#8d7b6e", "#5a4b43"],
-    price: 160000,
-  },
-  {
-    id: 9,
-    name: "Chì Kẻ Mày 2 Đầu Dual Eyebrow",
-    thumbnail: "/imgs/products/p-9.jpg",
-    swatches: ["#e5d0b5", "#c8a97e", "#a47551", "#6b4a2b"],
-    price: 160000,
+    name: "Son Kem Lì Velvet Matte Liquid Lipstick - Lâu Trôi, Mềm Mịn, Lên Màu Chuẩn",
+    thumbnail: "/imgs/products/p-3.webp",
+    price: 164000,
+    url: "https://shopee.vn/Son-Kem-L%C3%AC-Thu%E1%BA%A7n-Chay-Perfect-Couple-Lip-L%C3%AAn-M%C3%A0u-Chu%E1%BA%A9n-M%E1%BB%8Bn-M%C3%B4i-L%C3%A2u-Tr%C3%B4i-i.1515879255.44175495065?extraParams=%7B%22display_model_id%22%3A262067285840%7D",
   },
 ];
-
 // Đánh giá khách hàng
 export const testimonials = [
   {
     id: 1,
-    name: "Linh Nguyễn",
-    avatar: "https://i.pravatar.cc/150?img=11",
-    text: "Glowee's eyeshadow palettes are absolutely stunning! The colors blend beautifully and last all day. I've received so many compliments!",
+    name: "Vũ Khánh Vi",
+    avatar: "https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-6/568574848_2097156777692037_4301741429907654700_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHOYuaOjqPxPpXe8QymkFGSeWf25pHPe1N5Z_bmkc97U2EF7Tn8tet3AqRX83IVoKqsLlJN09dIaDurpMAgFWwo&_nc_ohc=WVY38Rjum7wQ7kNvwEpV5-G&_nc_oc=Admk0YGECysp7lwD6AyqURDyKhFRc3HivfG51-xSoo7vx6_23S_yezaLHttIeerp96c&_nc_zt=23&_nc_ht=scontent.fhan5-6.fna&_nc_gid=X0l8DIaFLB9rMkXkdtYwoQ&oh=00_Afca9EVnSNpc_YVLIs8kIRWgC--9HQ59dt6tzlve1p8RbQ&oe=69014D1A",
+    text: "Bảng phấn mắt của Glowee thật sự tuyệt đẹp! Màu lên chuẩn, dễ tán và giữ rất lâu. Mình được khen rất nhiều khi dùng!",
     rating: 5,
   },
   {
     id: 2,
     name: "Mai Trần",
-    avatar: "https://i.pravatar.cc/150?img=22",
-    text: "The lipsticks are so smooth and the color payoff is amazing. I love that they don't dry out my lips. Will definitely buy more!",
+    avatar: "https://randomuser.me/api/portraits/women/12.jpg",
+    text: "Son của Glowee mịn môi và màu lên cực chuẩn. Mình rất thích vì không làm khô môi. Chắc chắn sẽ mua thêm!",
     rating: 5,
   },
   {
     id: 3,
-    name: "Hương Phạm",
-    avatar: "https://i.pravatar.cc/150?img=36",
-    text: "Best eyeliner pencils I've ever used! They glide on smoothly and stay put without smudging. Highly recommend!",
+    name: "Nguyễn Thúc Thùy Tiên",
+    avatar: "https://cdn-i.vtcnews.vn/resize/th/upload/2025/05/19/nguyen-thuc-thuy-tien-miss-grand-international-2021-03-20121741.jpg",
+    text: "Kẻ mắt của Glowee là loại tốt nhất mình từng mua cho người yêu mình! Nét kẻ mượt, không lem và bền màu cả ngày. Cô ấy rất thích!",
     rating: 5,
   },
   {
     id: 4,
-    name: "Anh Lê",
-    avatar: "https://i.pravatar.cc/150?img=47",
-    text: "I'm obsessed with the Rosy Dream palette! The quality is incredible for the price. Glowee has become my go-to brand.",
+    name: "Nguyễn Thanh Tùng",
+    avatar: "https://media.yeah1.com/files/ngoctran/2022/07/01/289693821_582015943280803_2102006602626651935_n-205941.jpg",
+    text: "Chất lượng vượt xa mong đợi mà giá lại cực kỳ hợp lý. Glowee giờ là thương hiệu ruột của mình mỗi lần mình đi diễn!",
     rating: 5,
   },
   {
     id: 5,
-    name: "Thu Võ",
-    avatar: "https://i.pravatar.cc/150?img=52",
-    text: "Fast shipping and beautiful packaging! The products exceeded my expectations. Love supporting Glowee!",
+    name: "Trịnh Trần Phương Tuấn",
+    avatar: "https://tse4.mm.bing.net/th/id/OIP.7WXOJCl3pf7Q22nB43cScwHaLF?rs=1&pid=ImgDetMain&o=7&rm=3",
+    text: "Giao hàng nhanh, đóng gói đẹp và tinh tế! Sản phẩm vượt xa mong đợi, thật sự rất thích và sẽ tiếp tục ủng hộ Glowee!",
     rating: 5,
   },
   {
     id: 6,
-    name: "Trang Đỗ",
-    avatar: "https://i.pravatar.cc/150?img=65",
-    text: "Perfect for sensitive skin! No irritation and the colors are so pigmented. Thank you Glowee for such amazing products!",
+    name: "Ngân 98",
+    avatar: "https://photo.znews.vn/Uploaded/ofh_btgazspf/2025_10_18/564545794_821450767101580_7143453000250345847_n_1.jpg",
+    text: "Phù hợp với da nhạy cảm, không gây kích ứng và màu sắc rất rực rỡ. Cảm ơn Glowee vì những sản phẩm tuyệt vời!",
     rating: 5,
   },
 ];
@@ -115,39 +72,39 @@ export const testimonials = [
 export const faqs = [
   {
     id: 1,
-    question: "How do I place an order?",
+    question: "Làm sao để đặt hàng?",
     answer:
-      "You can order directly through our Shopee store or contact us via Facebook and Instagram messages. We'll guide you through the entire process!",
+      "Bạn có thể đặt hàng trực tiếp qua cửa hàng Shopee của Glowee hoặc liên hệ với chúng tôi qua tin nhắn Facebook và Instagram. Đội ngũ Glowee sẽ hướng dẫn bạn chi tiết từng bước!",
   },
   {
     id: 2,
-    question: "What is your shipping policy?",
+    question: "Chính sách giao hàng của Glowee là gì?",
     answer:
-      "We ship nationwide within Vietnam. Standard shipping takes 2-5 business days. Free shipping for orders over 500,000₫.",
+      "Glowee giao hàng toàn quốc tại Việt Nam. Thời gian giao hàng thông thường từ 2-5 ngày làm việc. Miễn phí vận chuyển cho đơn hàng từ 500.000₫ trở lên.",
   },
   {
     id: 3,
-    question: "Are Glowee products cruelty-free?",
+    question: "Sản phẩm của Glowee có thử nghiệm trên động vật không?",
     answer:
-      "Yes! All Glowee products are 100% cruelty-free and we never test on animals. We believe in ethical beauty.",
+      "Không! Tất cả sản phẩm của Glowee đều 100% không thử nghiệm trên động vật. Chúng tôi luôn hướng đến vẻ đẹp nhân đạo và bền vững.",
   },
   {
     id: 4,
-    question: "Can I return or exchange products?",
+    question: "Tôi có thể đổi hoặc trả sản phẩm không?",
     answer:
-      "We accept returns and exchanges within 7 days of delivery for unopened products. Please contact us through our social media channels to initiate a return.",
+      "Glowee chấp nhận đổi hoặc trả hàng trong vòng 7 ngày kể từ khi nhận hàng đối với sản phẩm chưa mở nắp. Vui lòng liên hệ với chúng tôi qua mạng xã hội để được hỗ trợ đổi trả.",
   },
   {
     id: 5,
-    question: "How should I store my makeup products?",
+    question: "Tôi nên bảo quản mỹ phẩm như thế nào?",
     answer:
-      "Store in a cool, dry place away from direct sunlight. Keep products tightly closed when not in use to maintain freshness and quality.",
+      "Hãy bảo quản sản phẩm ở nơi khô ráo, thoáng mát và tránh ánh nắng trực tiếp. Đóng chặt nắp sau khi sử dụng để giữ sản phẩm luôn tươi mới và đạt chất lượng tốt nhất.",
   },
   {
     id: 6,
-    question: "Are your products safe for sensitive skin?",
+    question: "Sản phẩm của Glowee có phù hợp với da nhạy cảm không?",
     answer:
-      "Most of our products are formulated to be gentle, but we recommend doing a patch test first if you have very sensitive skin. Check product descriptions for specific ingredients.",
+      "Hầu hết các sản phẩm của Glowee đều được điều chế dịu nhẹ, phù hợp với da nhạy cảm. Tuy nhiên, bạn nên thử trước một vùng nhỏ trên da nếu có làn da quá nhạy cảm và kiểm tra thành phần sản phẩm trước khi sử dụng.",
   },
 ];
 

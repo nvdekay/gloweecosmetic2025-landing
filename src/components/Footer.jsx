@@ -30,7 +30,7 @@ const Footer = () => {
           <p className="text-gray-500 text-xs">
             &copy; {currentYear} Glowee. All rights reserved.
           </p>
-          <div className="hover:shadow-[0_0_25px_rgba(255,105,180,0.6)] transition-all duration-500">
+          {/* <div className="hover:shadow-[0_0_25px_rgba(255,105,180,0.6)] transition-all duration-500">
             <a
               href="https://khanhnvd.site/"
               target="_blank"
@@ -42,7 +42,7 @@ const Footer = () => {
                 Nguyen Vu Dang Khanh
               </span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

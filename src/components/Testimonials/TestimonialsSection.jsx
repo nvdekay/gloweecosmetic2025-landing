@@ -8,12 +8,12 @@ export default function TestimonialsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-4xl pb-2 md:text-5xl font-extrabold mb-4 bg-gradient-to-r from-pink-500 via-rose-400 to-teal-400 bg-clip-text text-transparent drop-shadow-md tracking-tight">
-            What Our Customers Say
+            Cảm nhận từ khách hàng
           </h2>
           <p className="text-lg text-gray-700 italic max-w-2xl mx-auto leading-relaxed">
-            “Don’t just take our word for it — discover how beauty lovers are
-            falling in love with{" "}
-            <span className="text-pink-600 font-semibold">Glowee</span>.”
+            “Đừng chỉ nghe chúng tôi nói — hãy xem cách các tín đồ làm đẹp đang
+            say mê <span className="text-pink-600 font-semibold">Glowee</span>{" "}
+            như thế nào nhé!”
           </p>
         </div>
 

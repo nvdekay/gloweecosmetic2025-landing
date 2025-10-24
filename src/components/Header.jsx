@@ -22,17 +22,17 @@ const Header = () => {
             <img
               src="/imgs/logo.png"
               className="w-44 h-full bg-gradient-to-r from-pink-500 via-rose-500 to-pink-700 bg-clip-text text-transparent"
-              alt="Glowee Logo"
+              alt="Logo Glowee"
             />
           </button>
 
-          {/* Desktop Navigation */}
+          {/* Menu Desktop */}
           <nav className="hidden md:flex items-center gap-8 font-medium">
             {[
-              { label: "About", id: "#about" },
-              { label: "Producs", id: "#eyeshadow" },
-              { label: "Reviews", id: "#testimonials" },
-              { label: "FAQ", id: "#faq" },
+              { label: "Giới thiệu", id: "#about" },
+              { label: "Sản phẩm", id: "#eyeshadow" },
+              { label: "Đánh giá", id: "#testimonials" },
+              { label: "Câu hỏi thường gặp", id: "#faq" },
             ].map((item) => (
               <button
                 key={item.id}
@@ -44,13 +44,13 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* Social Icons */}
+          {/* Biểu tượng mạng xã hội */}
           <div className="flex items-center gap-4">
             <a
               href="https://vn.shp.ee/5A6bCxm"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Visit our Shopee store"
+              aria-label="Mở gian hàng Shopee của chúng tôi"
               className="text-rose-500 hover:text-pink-600 p-2 transition-transform hover:scale-110 cursor-pointer"
             >
               <FontAwesomeIcon icon={faShoppingBag} className="text-xl" />
@@ -59,7 +59,7 @@ const Header = () => {
               href="https://web.facebook.com/profile.php?id=61581751258990"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Follow us on Facebook"
+              aria-label="Theo dõi chúng tôi trên Facebook"
               className="text-blue-600 hover:text-blue-700 p-2 transition-transform hover:scale-110 cursor-pointer"
             >
               <FontAwesomeIcon icon={faFacebookF} className="text-xl" />
@@ -68,7 +68,7 @@ const Header = () => {
               href="https://www.instagram.com/gloweecosmetic?igsh=MzN1Z3Npd3kwZ2R1"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Follow us on Instagram"
+              aria-label="Theo dõi chúng tôi trên Instagram"
               className="text-pink-500 hover:text-rose-600 p-2 transition-transform hover:scale-110 cursor-pointer"
             >
               <FontAwesomeIcon icon={faInstagram} className="text-xl" />
@@ -76,13 +76,13 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* Menu Mobile */}
         <nav className="md:hidden pb-4 flex gap-5 overflow-x-auto text-sm font-medium">
           {[
-            { label: "About", id: "#about" },
-            { label: "Products", id: "#eyeshadow" },
-            { label: "Reviews", id: "#testimonials" },
-            { label: "FAQ", id: "#faq" },
+            { label: "Giới thiệu", id: "#about" },
+            { label: "Sản phẩm", id: "#eyeshadow" },
+            { label: "Đánh giá", id: "#testimonials" },
+            { label: "Câu hỏi thường gặp", id: "#faq" },
           ].map((item) => (
             <button
               key={item.id}

@@ -48,7 +48,7 @@ export default function TestimonialCard({ testimonial }) {
 
       <div className="mt-4 flex justify-end">
         <span className="text-sm text-pink-500 font-medium">
-          — {testimonial.role || "Customer"}
+          — {testimonial.role || "Khách hàng"}
         </span>
       </div>
     </div>
