@@ -28,10 +28,16 @@ const HeroSlider = () => {
   const prevSlide = () =>
     setCurrent((current - 1 + images.length) % images.length);
 
+  // Smooth scroll handler
+  const handleSmoothScroll = (id) => {
+    const section = document.querySelector(id);
+    section?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <section
       id="home"
-      className="relative w-full h-[92vh] overflow-hidden bg-linear-0 from-[#FFD9E6] via-[#FFE9F2] to-white"
+      className="relative w-full h-screen overflow-hidden bg-linear-0 from-[#FFD9E6] via-[#FFE9F2] to-white"
     >
       {/* Slides */}
       <div
@@ -47,7 +53,12 @@ const HeroSlider = () => {
             {index === current && (
               <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white bg-black/40 backdrop-blur-sm px-6">
                 {/* Title */}
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-4 bg-[#FFC3DC] via-rose-400 to-pink-600 bg-clip-text text-transparent drop-shadow-lg">
+                <h1
+                  className="text-6xl md:text-7xl lg:text-8xl font-extrabold mb-4 
+             bg-gradient-to-r from-[#FF99C8] via-[#FFD6E0] to-[#ddadc5] 
+             bg-clip-text text-transparent drop-shadow-[0_0_25px_rgba(255,155,200,0.6)] 
+             tracking-widest animate-pulse-slow"
+                >
                   Glowee
                 </h1>
 
@@ -59,20 +70,20 @@ const HeroSlider = () => {
 
                 {/* Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <a
-                    href="#eyeshadow"
-                    className="group relative inline-flex items-center justify-center overflow-hidden rounded-full px-8 py-4 font-semibold text-lg bg-gradient-to-r from-pink-600 to-rose-500 text-white hover:scale-105 transition-all duration-300 shadow-lg"
+                  <button
+                    onClick={() => handleSmoothScroll("#eyeshadow")}
+                    className="group cursor-pointer relative inline-flex items-center justify-center overflow-hidden rounded-full px-8 py-4 font-semibold text-lg bg-gradient-to-r from-pink-600 to-rose-500 text-white hover:scale-105 transition-all duration-300 shadow-lg"
                   >
                     <span className="relative z-10">Shop Now</span>
                     <span className="absolute inset-0 bg-gradient-to-r from-rose-400 via-[#FFF5F9]0 to-rose-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-lg"></span>
-                  </a>
+                  </button>
 
-                  <a
-                    href="#about"
-                    className="relative inline-flex items-center justify-center overflow-hidden rounded-full px-8 py-4 font-semibold text-lg border-2 border-[#FFA8CD] text-white hover:text-[#FFE9F2] hover:bg-[#FFF5F9]0/20 transition-all duration-300"
+                  <button
+                    onClick={() => handleSmoothScroll("#about")}
+                    className="relative inline-flex cursor-pointer items-center justify-center overflow-hidden rounded-full px-8 py-4 font-semibold text-lg border-2 border-[#FFA8CD] text-white hover:text-[#FFE9F2] hover:bg-[#FFF5F9]0/20 transition-all duration-300"
                   >
                     Learn More
-                  </a>
+                  </button>
                 </div>
 
                 {/* Decorative shimmer line */}
@@ -86,7 +97,7 @@ const HeroSlider = () => {
       {/* Left Button */}
       <button
         onClick={prevSlide}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/70 hover:bg-white text-pink-700 rounded-full p-3 shadow-md transition"
+        className="absolute cursor-pointer left-4 top-1/2 transform -translate-y-1/2 bg-white/70 hover:bg-white text-pink-700 rounded-full p-3 shadow-md transition"
       >
         <FontAwesomeIcon icon={faChevronLeft} className="text-2xl" />
       </button>
@@ -94,7 +105,7 @@ const HeroSlider = () => {
       {/* Right Button */}
       <button
         onClick={nextSlide}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/70 hover:bg-white text-pink-700 rounded-full p-3 shadow-md transition"
+        className="absolute cursor-pointer right-4 top-1/2 transform -translate-y-1/2 bg-white/70 hover:bg-white text-pink-700 rounded-full p-3 shadow-md transition"
       >
         <FontAwesomeIcon icon={faChevronRight} className="text-2xl" />
       </button>
@@ -105,7 +116,7 @@ const HeroSlider = () => {
           <button
             key={index}
             onClick={() => setCurrent(index)}
-            className={`w-3 h-3 rounded-full transition ${
+            className={`w-3 h-3 rounded-full transition cursor-pointer ${
               current === index ? "bg-pink-600" : "bg-white/70"
             }`}
           ></button>

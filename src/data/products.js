@@ -1,52 +1,52 @@
 // src/data/products.js
 
-// 💄 Danh sách bảng màu mắt
+// Danh sách bảng màu mắt
 export const eyeshadows = [
   {
     id: 1,
     name: "Rosy Dream Palette",
-    thumbnail: "/images/palette-1.jpg",
+    thumbnail: "/imgs/eyeshadow/es-1.jpg",
     swatches: ["#f6d0e0", "#f1a3c2", "#8b5e83", "#5d3a4f"],
     price: 350000,
   },
   {
     id: 2,
     name: "Sunset Glow Collection",
-    thumbnail: "/images/palette-1.jpg",
+    thumbnail: "/imgs/eyeshadow/es-2.jpg",
     swatches: ["#ffd4b8", "#ffb89f", "#ff9b7e", "#d97561"],
     price: 380000,
   },
   {
     id: 3,
     name: "Nude Elegance",
-    thumbnail: "/images/palette-1.jpg",
+    thumbnail: "/imgs/eyeshadow/es-3.jpg",
     swatches: ["#f5e6d3", "#d4b5a0", "#a68872", "#6d5447"],
     price: 320000,
   },
   {
     id: 4,
     name: "Berry Bliss Palette",
-    thumbnail: "/images/palette-1.jpg",
+    thumbnail: "/imgs/eyeshadow/es-4.jpg",
     swatches: ["#e8c5d6", "#d1879f", "#a84d6f", "#7a3653"],
     price: 365000,
   },
   {
     id: 5,
     name: "Golden Hour",
-    thumbnail: "/images/palette-1.jpg",
+    thumbnail: "/imgs/eyeshadow/es-5.jpg",
     swatches: ["#f9e4c8", "#e8c597", "#c9a36a", "#8b6f47"],
     price: 340000,
   },
   {
     id: 6,
     name: "Lavender Dreams",
-    thumbnail: "/images/palette-1.jpg",
+    thumbnail: "/imgs/eyeshadow/es-6.jpg",
     swatches: ["#e6d5f7", "#c9aee3", "#9b7bb8", "#6b548a"],
     price: 355000,
   },
 ];
 
-// ✏️ Danh sách bút kẻ mắt
+// Danh sách bút kẻ mắt
 export const eyeliners = [
   {
     id: 1,
@@ -54,7 +54,7 @@ export const eyeliners = [
     colorName: "Midnight Black",
     swatch: "#000000",
     price: 85000,
-    img: "/images/pencil-1.jpg",
+    img: "/imgs/eyeliner/el-1.jpg",
   },
   {
     id: 2,
@@ -62,7 +62,7 @@ export const eyeliners = [
     colorName: "Chocolate",
     swatch: "#5d4037",
     price: 85000,
-    img: "/images/pencil-1.jpg",
+    img: "/imgs/eyeliner/el-2.jpg",
   },
   {
     id: 3,
@@ -70,7 +70,7 @@ export const eyeliners = [
     colorName: "Deep Ocean",
     swatch: "#1a237e",
     price: 90000,
-    img: "/images/pencil-1.jpg",
+    img: "/imgs/eyeliner/el-3.jpg",
   },
   {
     id: 4,
@@ -78,7 +78,39 @@ export const eyeliners = [
     colorName: "Berry Plum",
     swatch: "#6a1b4d",
     price: 90000,
-    img: "/images/pencil-1.jpg",
+    img: "/imgs/eyeliner/el-4.jpg",
+  },
+  {
+    id: 5,
+    name: "Emerald Gleam",
+    colorName: "Forest Green",
+    swatch: "#1b5e20",
+    price: 95000,
+    img: "/imgs/eyeliner/el-5.webp",
+  },
+  {
+    id: 6,
+    name: "Golden Hour Liner",
+    colorName: "Metallic Gold",
+    swatch: "#d4af37",
+    price: 95000,
+    img: "/imgs/eyeliner/el-6.jpg",
+  },
+  {
+    id: 7,
+    name: "Silver Starlight",
+    colorName: "Shimmer Silver",
+    swatch: "#c0c0c0",
+    price: 95000,
+    img: "/imgs/eyeliner/el-7.jpg",
+  },
+  {
+    id: 8,
+    name: "Rose Quartz",
+    colorName: "Soft Pink Glow",
+    swatch: "#d81b60",
+    price: 90000,
+    img: "/imgs/eyeliner/el-8.jpg",
   },
 ];
 

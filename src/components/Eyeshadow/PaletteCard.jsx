@@ -3,12 +3,15 @@ import { formatPrice } from "../../data/products";
 
 const PaletteCard = ({ palette }) => {
   return (
-    <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+    <div
+      className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden 
+                 transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
+    >
       <div className="aspect-square overflow-hidden bg-gray-50">
         <img
           src={palette.thumbnail}
           alt={`${palette.name} eyeshadow palette with beautiful color combinations`}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
         />
       </div>
 
@@ -27,11 +30,8 @@ const PaletteCard = ({ palette }) => {
         </div>
 
         <div className="flex items-center justify-between">
-          <span className="text-lg font-bold text-[E87BA8]">
+          <span className="text-lg font-bold text-[#E87BA8]">
             {formatPrice(palette.price)}
-          </span>
-          <span className="text-sm text-gray-500">
-            {palette.swatches.length} shades
           </span>
         </div>
       </div>
