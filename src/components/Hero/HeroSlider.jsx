@@ -11,6 +11,7 @@ const HeroSlider = () => {
     "/imgs/hero/hero-2.png",
     "/imgs/hero/hero-3.png",
     "/imgs/hero/hero-4.png",
+    "/imgs/hero/hero-5.webp",
   ];
 
   const [current, setCurrent] = useState(0);
