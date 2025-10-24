@@ -7,10 +7,10 @@ import {
 
 const HeroSlider = () => {
   const images = [
-    "/imgs/hero/hero-1.webp",
-    "/imgs/hero/hero-2.webp",
-    "/imgs/hero/hero-3.webp",
-    "/imgs/hero/hero-4.webp",
+    "/imgs/hero/hero-1.png",
+    "/imgs/hero/hero-2.png",
+    "/imgs/hero/hero-3.png",
+    "/imgs/hero/hero-4.png",
   ];
 
   const [current, setCurrent] = useState(0);
@@ -19,7 +19,7 @@ const HeroSlider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length);
-    }, 5000);
+    }, 10000);
     return () => clearInterval(interval);
   }, [images.length]);
 

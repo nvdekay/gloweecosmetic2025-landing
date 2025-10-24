@@ -12,29 +12,25 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50 border-b border-pink-100">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <button
             onClick={(e) => handleScroll(e, "#home")}
             className="flex items-center gap-2 focus:outline-none px-2 py-1 group cursor-pointer"
           >
-            <FontAwesomeIcon
-              icon={faShop}
-              className="text-pink-600 text-3xl group-hover:rotate-12 transition-transform duration-300"
+            <img
+              src="/imgs/logo.png"
+              className="w-44 h-full bg-gradient-to-r from-pink-500 via-rose-500 to-pink-700 bg-clip-text text-transparent"
+              alt="Glowee Logo"
             />
-            <span className="text-3xl font-extrabold bg-gradient-to-r from-pink-500 via-rose-500 to-pink-700 bg-clip-text text-transparent">
-              Glowee
-            </span>
           </button>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8 font-medium">
             {[
               { label: "About", id: "#about" },
-              { label: "Eyeshadow", id: "#eyeshadow" },
-              { label: "Eyeliner", id: "#eyeliner" },
-              { label: "Lipstick", id: "#lipstick" },
+              { label: "Producs", id: "#eyeshadow" },
               { label: "Reviews", id: "#testimonials" },
               { label: "FAQ", id: "#faq" },
             ].map((item) => (
@@ -51,7 +47,7 @@ const Header = () => {
           {/* Social Icons */}
           <div className="flex items-center gap-4">
             <a
-              href="https://shopee.vn/"
+              href="https://vn.shp.ee/5A6bCxm"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Visit our Shopee store"
@@ -60,7 +56,7 @@ const Header = () => {
               <FontAwesomeIcon icon={faShoppingBag} className="text-xl" />
             </a>
             <a
-              href="https://facebook.com/"
+              href="https://web.facebook.com/profile.php?id=61581751258990"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Follow us on Facebook"
@@ -69,7 +65,7 @@ const Header = () => {
               <FontAwesomeIcon icon={faFacebookF} className="text-xl" />
             </a>
             <a
-              href="https://instagram.com/"
+              href="https://www.instagram.com/gloweecosmetic?igsh=MzN1Z3Npd3kwZ2R1"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Follow us on Instagram"
@@ -84,9 +80,7 @@ const Header = () => {
         <nav className="md:hidden pb-4 flex gap-5 overflow-x-auto text-sm font-medium">
           {[
             { label: "About", id: "#about" },
-            { label: "Eyeshadow", id: "#eyeshadow" },
-            { label: "Eyeliner", id: "#eyeliner" },
-            { label: "Lipstick", id: "#lipstick" },
+            { label: "Products", id: "#eyeshadow" },
             { label: "Reviews", id: "#testimonials" },
             { label: "FAQ", id: "#faq" },
           ].map((item) => (

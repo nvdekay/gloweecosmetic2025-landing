@@ -3,8 +3,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import AboutSection from "./components/About/AboutSection";
 import EyeshadowSection from "./components/Eyeshadow/EyeshadowSection";
-import PencilSection from "./components/Pencil/PencilSection";
-import LipstickSection from "./components/Lipstick/LipstickSection";
 import TestimonialsSection from "./components/Testimonials/TestimonialsSection";
 import FAQSection from "./components/FAQ/FAQSection";
 import FindMoreSection from "./components/FindMore/FindMoreSection";
@@ -18,8 +16,6 @@ function App() {
         <HeroSlider />
         <AboutSection />
         <EyeshadowSection />
-        <PencilSection />
-        <LipstickSection />
         <TestimonialsSection />
         <FAQSection />
         <FindMoreSection />

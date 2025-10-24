@@ -1,6 +1,6 @@
 import React from "react";
 import PaletteCard from "./PaletteCard";
-import { eyeshadows } from "../../data/products";
+import { products } from "../../data/products";
 
 const EyeshadowSection = () => {
   return (
@@ -14,9 +14,9 @@ const EyeshadowSection = () => {
           <h2
             className="text-4xl md:text-5xl font-extrabold mb-4 pb-2.5
                        bg-gradient-to-r from-[#FF8DC7] via-[#E87BA8] to-[#B56DFF] 
-                       bg-clip-text text-transparent tracking-wide drop-shadow-sm"
+                       bg-clip-text text-transparent tracking-wide drop-shadow-sm mt-16"
           >
-            Eyeshadow Palettes
+            Product Collection
           </h2>
 
           <p
@@ -39,7 +39,7 @@ const EyeshadowSection = () => {
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 
                      animate-fadeIn"
         >
-          {eyeshadows.map((palette) => (
+          {products.map((palette) => (
             <PaletteCard key={palette.id} palette={palette} />
           ))}
         </div>

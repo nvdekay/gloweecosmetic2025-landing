@@ -9,7 +9,7 @@ const FindMoreSection = () => {
     <section id="contact" className="py-16 md:py-20">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-4 bg-gradient-to-r from-pink-600 via-rose-400 to-mint-400 bg-clip-text text-transparent drop-shadow-sm tracking-tight">
+          <h2 className="text-4xl pb-2 md:text-5xl font-extrabold mb-4 bg-gradient-to-r from-pink-600 via-rose-400 to-mint-400 bg-clip-text text-transparent drop-shadow-sm tracking-tight">
             Shop & Connect With Us
           </h2>
           <p className="text-lg text-gray-700 italic max-w-2xl mx-auto leading-relaxed">
@@ -60,7 +60,7 @@ const FindMoreSection = () => {
               Stay updated with our latest news, beauty tips, and tutorials.
             </p>
             <ButtonLink
-              href="https://www.facebook.com/GloweeCosmetic"
+              href="https://web.facebook.com/profile.php?id=61581751258990"
               variant="social"
               ariaLabel="Follow us on Facebook"
               className="bg-blue-600 hover:bg-blue-700 text-white w-full hover:bg-blue-500"
@@ -88,7 +88,7 @@ const FindMoreSection = () => {
               .
             </p>
             <ButtonLink
-              href="https://www.instagram.com/gloweecosmetic/"
+              href="https://www.instagram.com/gloweecosmetic?igsh=MzN1Z3Npd3kwZ2R1"
               variant="social"
               ariaLabel="Follow us on Instagram"
               className="bg-rose-500 hover:bg-rose-600 text-white w-full"

@@ -10,13 +10,11 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between items-center gap-8">
         {/* Logo */}
         <div className="flex items-center gap-3 group">
-          <FontAwesomeIcon
-            icon={faShop}
-            className="text-pink-500 text-3xl transition-transform duration-300 group-hover:scale-125"
+          <img
+            src="/imgs/logo.png"
+            className="w-44 h-full bg-gradient-to-r from-pink-500 via-rose-500 to-pink-700 bg-clip-text text-transparent"
+            alt="Glowee Logo"
           />
-          <span className="text-3xl font-extrabold bg-gradient-to-r from-pink-500 via-rose-400 to-red-400 bg-clip-text text-transparent tracking-wide drop-shadow-sm">
-            Glowee
-          </span>
         </div>
 
         {/* Middle text */}
